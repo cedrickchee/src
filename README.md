@@ -30,17 +30,17 @@ Once the raw info is processed, it will flow to my digital garden[^3] (built wit
 
 ## PKM Tools
 
-### Turborepo starter
+This project is a [Turborepo](https://turbo.build/repo) monorepo setup.
 
-This is an official pnpm starter turborepo.
+The setup was based on an official pnpm starter turborepo.
 
 I created this turborepo by following the [tutorial here](https://gist.github.com/cedrickchee/dfdb66c457c7b9e1682feedcc4fd6302).
 
-#### What's inside?
+### What's inside?
 
 This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
 
-##### Apps and Packages
+#### Apps and Packages
 
 - `wiki`: a [Docusaurus](https://docusaurus.io/) app
 - `docs`: a [Next.js](https://nextjs.org/) app
@@ -51,7 +51,7 @@ This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes th
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
-##### Utilities
+#### Utilities
 
 This turborepo has some additional tools already setup for you:
 
@@ -59,7 +59,7 @@ This turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
 
-##### Installation
+### Installation
 
 We use pnpm as the package manager. At the root of the repository, run `pnpm i` to install the monorepo dependencies.
 
@@ -68,7 +68,7 @@ cd src
 pnpm i
 ```
 
-##### Build
+### Build
 
 To build all apps and packages, run the following command:
 
@@ -77,7 +77,7 @@ cd src
 pnpm run build
 ```
 
-##### Develop
+### Develop
 
 To develop all apps and packages, run the following command:
 
@@ -102,10 +102,16 @@ Alternatively, run:
 pnpm run dev:wiki
 ```
 
+### Deployment
+
+On every commit, [Vercel](https://vercel.com/) that is hooked up to the GitHub repo runs Docusaurus and new version of wiki is published.
+
+Please read ["Using Monorepos with Vercel dashboard" docs](https://vercel.com/docs/concepts/monorepos#using-monorepos-with-vercel-dashboard) if you would like to learn how I set up all this.
+
 <details>
   <summary>Learn more</summary>
 
-##### Remote Caching
+### Remote Caching
 
 Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
 
@@ -124,7 +130,7 @@ Next, you can link your Turborepo to your Remote Cache by running the following 
 pnpm dlx turbo link
 ```
 
-#### Useful Links
+### Useful Links
 
 Learn more about the power of Turborepo:
 
