@@ -2,6 +2,8 @@
 
 This is an official pnpm starter turborepo.
 
+I created this turborepo by following the [tutorial here](https://gist.github.com/cedrickchee/dfdb66c457c7b9e1682feedcc4fd6302).
+
 ## What's inside?
 
 This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
