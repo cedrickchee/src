@@ -59,6 +59,15 @@ This turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
 
+##### Installation
+
+We use pnpm as the package manager. At the root of the repository, run `pnpm i` to install the monorepo dependencies.
+
+```sh
+cd src
+pnpm i
+```
+
 ##### Build
 
 To build all apps and packages, run the following command:
@@ -76,6 +85,25 @@ To develop all apps and packages, run the following command:
 cd src
 pnpm run dev
 ```
+
+**Running `dev` on only one workspace at a time:**
+
+By default, `pnpm run dev` will run `dev` on all workspaces at once. But sometimes, we might only want to choose one workspace.
+
+To handle this, we can add a `--filter` flag to our command. This `--filter` gets passed to the `turbo` CLI.
+
+```sh
+pnpm run dev --filter wiki
+```
+
+Alternatively, run:
+
+```sh
+pnpm run dev:wiki
+```
+
+<details>
+  <summary>Learn more</summary>
 
 ##### Remote Caching
 
@@ -106,6 +134,8 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+
+</details>
 
 [^1]: [Progressive Summarization by Tiago Forte](https://fortelabs.com/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/)
 [^2]: [5 layers of summarization](https://www.zsolt.blog/2020/12/my-book-summaries-in-roam-using-tiagos.html)
