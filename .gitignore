@@ -8,6 +8,11 @@ node_modules
 # testing
 coverage
 
+# docusaurus
+# generated files
+.docusaurus
+.cache-loader
+
 # next.js
 .next/
 out/
