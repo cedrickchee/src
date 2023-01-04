@@ -1,14 +1,46 @@
 # `src`
 
-**_Work-In-Progress. Don't link to it yet._**
+## _Work-In-Progress (WIP). Don't link to it yet._
 
 `src` (a short for The Source) is a project that is part of my Personal Knowledge Management (PKM).
 
 You can think of `src` like a modern information "warehouse" in the form of a wiki (built with Docusaurus on GitHub).
 
-The wiki contains "raw materials" (resources) for writing. The resources link to the original full-text source.
+The public wiki contains "raw materials" (resources) for writing. The resources and lists link to the original full-text source.
 
-## Information workflow
+The wiki is available on:
+
+- Website: https://wiki.cedricchee.com
+- Github: https://github.com/cedrickchee/src
+
+## What kinds of contents
+
+The initial content in this wiki was migrated from [My Knowledge Wiki (GitBook)](https://github.com/cedrickchee/knowledge):
+
+- Notes from courses (educational materials) that I've study. (mostly for fast.ai and Coursera)
+- Notes on various programming (technical) topics.
+- Notes from books and other interesting things that I've read.
+
+<!-- Previously I used [GitBook](https://www.gitbook.com/) for publishing. -->
+
+[**WIP**] This wiki also aggregates some of my lists:
+
+- [https://gist.github.com/cedrickchee/f729e848b52eab8fbc88a3910072198c](https://gist.github.com/cedrickchee/f729e848b52eab8fbc88a3910072198c)
+- [https://github.com/cedrickchee/awesome-transformer-nlp](https://github.com/cedrickchee/awesome-transformer-nlp)
+- [https://github.com/cedrickchee/chatgpt-universe](https://github.com/cedrickchee/chatgpt-universe)
+- [https://github.com/cedrickchee/awesome-ml-model-compression](https://github.com/cedrickchee/awesome-ml-model-compression)
+- [https://github.com/cedrickchee/awesome-wireguard](https://github.com/cedrickchee/awesome-wireguard)
+
+<!-- If this is your first time visiting this wiki, take a look here as it 
+describes this wiki, its structure and goals. -->
+
+## User Guide
+
+- The order of items in sidebar is alphabetical except notes from courses.
+- I will rearrange and rename at any time with no notice.
+- This is a public digital garden - Terms of use: [TODO]
+
+### Information workflow
 
 I design my note taking system based on a few ideas. One of them is progressive summarization[^1].
 
@@ -140,6 +172,18 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+
+</details>
+
+## License
+
+<details>
+  <summary>View</summary>
+
+I am providing code and resources in this repository to you under an open source license. Because this is my personal repository, the license you receive to my code and resources is from me and not my employer.
+
+- Code: [MIT](./LICENSE) Copyright Cedric Chee
+- Text content: [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 </details>
 
