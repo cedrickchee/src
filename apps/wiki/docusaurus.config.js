@@ -119,7 +119,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Cedric Chee. Built with Docusaurus.`,
+        copyright: `Copyright 2018 - ${new Date().getFullYear()} Cedric Chee.<br/>The content for this site is <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a> license. The code for this site is MIT.<br />Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
