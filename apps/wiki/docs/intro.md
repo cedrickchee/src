@@ -1,6 +1,5 @@
 ---
 slug: /
-id: home-doc
 title: My Knowledge Wiki
 sidebar_position: 1
 ---

@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Personal Knowledge Management (PKM)',
+  title: 'InfoWarehouse',
   tagline: 'Information "Warehouse" — wiki, "raw materials"/resources for writing',
   url: 'https://wiki.cedricchee.com',
   baseUrl: '/',
@@ -53,18 +53,18 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Cedric Chee',
+        title: 'InfoWarehouse',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'InfoWarehouse Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Knowledge',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'courses/ai/fast.ai/fast.ai',
+          //   position: 'left',
+          //   label: 'fast.ai',
+          // },
           {
             href: 'https://github.com/cedrickchee/src',
             label: "GitHub",
@@ -88,11 +88,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Wiki',
             items: [
               {
-                label: 'Knowledge',
-                to: '/docs/intro',
+                label: 'Home',
+                to: '/',
               },
             ],
           },
