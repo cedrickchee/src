@@ -47,9 +47,9 @@ describes this wiki, its structure and goals. -->
 
 I design my note taking system based on a few ideas. One of them is progressive summarization[^1].
 
-I "capture" information from a wide variety of sources into [Shiori](https://github.com/go-shiori/shiori) (a bookmarks manager). Next, I move selected bookmarks to `src`.
+I "capture" information from a wide variety of sources into [Shiori](https://github.com/go-shiori/shiori) (a bookmarks manager). Next, I move selected bookmarks to InfoWarehouse.
 
-5 layers of summarization[^2]:
+The 5 layers of summarization[^2]:
 - 0: Original full-text source, raw information (i.e.: books, articles, papers, references)
 - 1: Notes (i.e.: notes from projects that I've work on, notes from interesting things that I've read)
 - 2: Highlighted passages
@@ -71,7 +71,7 @@ I also want to remember more [of what I read](http://austinkleon.com/2016/03/03/
 
 ## How to use the wiki effectively?
 
-In the left corner, you can make searches for what content I have already indexed or you can simply explore the tree view to the left.
+In the right corner, you can make searches for what content I have already indexed or you can simply explore the tree view to the left.
 
 ## Other things I wrote and shared
 
@@ -88,7 +88,6 @@ I share my knowledge in a longer form by writing [articles](https://cedricchee.c
 
 If you found a mistake anywhere in this wiki, I would really appreciate your help. You can quickly find any entry you wish to edit by [searching for the topic](https://github.com/cedrickchee/src/find/main) and then making the changes.
 
-## License
-
-* Code: [MIT](https://cedrickchee.mit-license.org/) Copyright Cedric Chee
-* Text content: [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/)
+[^1]: [Progressive Summarization by Tiago Forte](https://fortelabs.com/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/)
+[^2]: [5 layers of summarization](https://www.zsolt.blog/2020/12/my-book-summaries-in-roam-using-tiagos.html)
+[^3]: [What is "digital gardening"?](https://github.com/MaggieAppleton/digital-gardeners#what-is-digital-gardening)
