@@ -1,0 +1,14 @@
+{
+  "position": 1,
+  "label": "Deep Learning Part 1: 2018 Edition (v2)",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "doc",
+    "id": "README"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}
