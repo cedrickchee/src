@@ -1,15 +1,48 @@
-# Turborepo starter
+# `src`
+
+**_Work-In-Progress. Don't link to it yet._**
+
+`src` (a short for The Source) is a project that is part of my Personal Knowledge Management (PKM).
+
+You can think of `src` like a modern information "warehouse" in the form of a wiki (built with Docusaurus on GitHub).
+
+The wiki contains "raw materials" (resources) for writing. The resources link to the original full-text source.
+
+## Information workflow
+
+I design my note taking system based on a few ideas. One of them is progressive summarization[^1].
+
+I "capture" information from a wide variety of sources into [Shiori](https://github.com/go-shiori/shiori) (a bookmarks manager). Next, I move selected bookmarks to `src`.
+
+5 layers of summarization[^2]:
+- 0: Original full-text source, raw information (i.e.: books, articles, papers, references)
+- 1: Notes
+- 2: Highlighted passages
+- 3: Bold passages
+- 4: Mini summary
+- 5: Remix (i.e.: writings, blog posts, micro posts/Tweets)
+
+`src` is in layer 0.
+
+Once the raw info is processed, it will flow to my digital garden[^3] (built with Obsidian).
+
+---
+
+## PKM Tools
+
+### Turborepo starter
 
 This is an official pnpm starter turborepo.
 
 I created this turborepo by following the [tutorial here](https://gist.github.com/cedrickchee/dfdb66c457c7b9e1682feedcc4fd6302).
 
-## What's inside?
+#### What's inside?
 
 This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
 
-### Apps and Packages
+##### Apps and Packages
 
+- `wiki`: a [Docusaurus](https://docusaurus.io/) app
 - `docs`: a [Next.js](https://nextjs.org/) app
 - `web`: another [Next.js](https://nextjs.org/) app
 - `ui`: a stub React component library shared by both `web` and `docs` applications
@@ -18,7 +51,7 @@ This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes th
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
-### Utilities
+##### Utilities
 
 This turborepo has some additional tools already setup for you:
 
@@ -26,7 +59,7 @@ This turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
 
-### Build
+##### Build
 
 To build all apps and packages, run the following command:
 
@@ -35,7 +68,7 @@ cd src
 pnpm run build
 ```
 
-### Develop
+##### Develop
 
 To develop all apps and packages, run the following command:
 
@@ -44,7 +77,7 @@ cd src
 pnpm run dev
 ```
 
-### Remote Caching
+##### Remote Caching
 
 Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
 
@@ -63,7 +96,7 @@ Next, you can link your Turborepo to your Remote Cache by running the following 
 pnpm dlx turbo link
 ```
 
-## Useful Links
+#### Useful Links
 
 Learn more about the power of Turborepo:
 
@@ -73,3 +106,7 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+
+[^1]: [Progressive Summarization by Tiago Forte](https://fortelabs.com/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/)
+[^2]: [5 layers of summarization](https://www.zsolt.blog/2020/12/my-book-summaries-in-roam-using-tiagos.html)
+[^3]: [What is "digital gardening"?](https://github.com/MaggieAppleton/digital-gardeners#what-is-digital-gardening)
