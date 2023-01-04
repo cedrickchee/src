@@ -58,6 +58,7 @@ const config = {
           alt: 'InfoWarehouse Logo',
           src: 'img/logo.svg',
         },
+        hideOnScroll: true,
         items: [
           // {
           //   type: 'doc',
@@ -124,6 +125,12 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
       },
     }),
 };
