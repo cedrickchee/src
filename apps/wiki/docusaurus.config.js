@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Personal Knowledge Management (PKM)',
   tagline: 'Information "Warehouse" — wiki, "raw materials"/resources for writing',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://wiki.cedricchee.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,8 +17,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'cedrickchee', // Usually your GitHub org/user name.
+  projectName: 'src', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -38,14 +38,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/cedrickchee/src/blob/main/apps/wiki/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/cedrickchee/src/blob/main/apps/wiki/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,9 +72,21 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/cedrickchee/knowledge',
-            label: 'GitHub',
+            href: 'https://github.com/cedrickchee/src',
+            label: "GitHub",
+            "aria-label": "GitHub repository",
+            className: "header-github-link",
             position: 'right',
+          },
+          {
+            href: "https://twitter.com/cedric_chee",
+            label: "Twitter",
+            position: "right",
+          },
+          {
+            href: "https://cedricchee.com",
+            position: "right",
+            label: "Blog",
           },
         ],
       },
@@ -94,8 +106,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Matrix Chat',
+                href: 'https://matrix.to/#/@toooldforthis:matrix.org',
               },
               {
                 label: 'Twitter',
@@ -112,12 +124,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/cedrickchee/knowledge',
+                href: 'https://github.com/cedrickchee/src',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Cedric Chee. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
