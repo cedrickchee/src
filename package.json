@@ -1,7 +1,10 @@
 {
-  "name": "my-turborepo",
+  "name": "src",
   "version": "0.0.0",
   "private": true,
+  "repository": "git@github.com:cedrickchee/src.git",
+  "author": "Cedric Chee <cedric+github@invictusbyte.com>",
+  "license": "MIT",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -9,8 +12,11 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
+    "dev:wiki": "turbo run dev --filter=wiki...",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{ts,tsx,md,mdx}\"",
+    "clean": "turbo run clean"
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
