@@ -1,12 +1,14 @@
-# `src`
+# InfoWarehouse
 
 ## _Work-In-Progress (WIP). Don't link to it yet._
 
-`src` (a short for The Source) is a project that is part of my Personal Knowledge Management (PKM).
+InfoWarehouse — a modern information "warehouse" in the form of a **wiki**.
 
-You can think of `src` like a modern information "warehouse" in the form of a wiki (built with Docusaurus on GitHub).
+This project is part of my Personal Knowledge Management (PKM).
 
 The public wiki contains "raw materials" (resources) for writing. The resources and lists link to the original full-text source.
+
+I am sharing them in the hope that they would be useful to you as well.
 
 The wiki is available on:
 
@@ -25,7 +27,7 @@ The initial content in this wiki was migrated from [My Knowledge Wiki (GitBook)]
 
 [**WIP**] This wiki also aggregates some of my lists:
 
-- [https://gist.github.com/cedrickchee/f729e848b52eab8fbc88a3910072198c](https://gist.github.com/cedrickchee/f729e848b52eab8fbc88a3910072198c)
+- [Awesome Rust](https://gist.github.com/cedrickchee/f729e848b52eab8fbc88a3910072198c)
 - [https://github.com/cedrickchee/awesome-transformer-nlp](https://github.com/cedrickchee/awesome-transformer-nlp)
 - [https://github.com/cedrickchee/chatgpt-universe](https://github.com/cedrickchee/chatgpt-universe)
 - [https://github.com/cedrickchee/awesome-ml-model-compression](https://github.com/cedrickchee/awesome-ml-model-compression)
@@ -38,7 +40,7 @@ describes this wiki, its structure and goals. -->
 
 - The order of items in sidebar is alphabetical except notes from courses.
 - I will rearrange and rename at any time with no notice.
-- This is a public digital garden - Terms of use: [TODO]
+- This is a public wiki - Terms of use: [TODO]
 
 ### Information workflow
 
@@ -46,15 +48,15 @@ I design my note taking system based on a few ideas. One of them is progressive 
 
 I "capture" information from a wide variety of sources into [Shiori](https://github.com/go-shiori/shiori) (a bookmarks manager). Next, I move selected bookmarks to `src`.
 
-5 layers of summarization[^2]:
+The 5 layers of summarization[^2]:
 - 0: Original full-text source, raw information (i.e.: books, articles, papers, references)
-- 1: Notes
+- 1: Notes (i.e.: notes from projects that I've work on, notes from interesting things that I've read)
 - 2: Highlighted passages
 - 3: Bold passages
-- 4: Mini summary
+- 4: Mini summary (i.e.: notes from books I've read)
 - 5: Remix (i.e.: writings, blog posts, micro posts/Tweets)
 
-`src` is in layer 0.
+**InfoWarehouse** is in layer 0.
 
 Once the raw info is processed, it will flow to my digital garden[^3] (built with Obsidian).
 
