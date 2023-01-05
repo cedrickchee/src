@@ -102,6 +102,7 @@ const sidebars = {
         'books/index-books',
         'books/deep-work',
         'books/a-philosophy-of-software-design',
+        'books/designing-data-intensive-applications',
       ],
     },
     // {
