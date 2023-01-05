@@ -92,14 +92,16 @@ const sidebars = {
       label: 'Books',
       link: {
         type: 'generated-index',
-        title: 'Book Summaries',
+        title: 'Books',
         description:
           "Books I have read:",
         keywords: ['books'],
         image: '/img/docusaurus.png',
       },
       items: [
+        'books/index-books',
         'books/deep-work',
+        'books/a-philosophy-of-software-design',
       ],
     },
     // {
