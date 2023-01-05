@@ -32,6 +32,7 @@ The initial content in this wiki was migrated from [My Knowledge Wiki (GitBook)]
 - [https://github.com/cedrickchee/chatgpt-universe](https://github.com/cedrickchee/chatgpt-universe)
 - [https://github.com/cedrickchee/awesome-ml-model-compression](https://github.com/cedrickchee/awesome-ml-model-compression)
 - [https://github.com/cedrickchee/awesome-wireguard](https://github.com/cedrickchee/awesome-wireguard)
+- [https://github.com/cedrickchee/book-notes](https://github.com/cedrickchee/book-notes)
 
 <!-- If this is your first time visiting this wiki, take a look here as it 
 describes this wiki, its structure and goals. -->
