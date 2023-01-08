@@ -6,7 +6,7 @@ created: 2022-12-06 15:12
 updated: 2023-01-06 16:27
 ---
 
-> This list used to be at https://github.com/cedrickchee/chatgpt-universe
+> This list is also at https://github.com/cedrickchee/chatgpt-universe
 
 This tiny place of the Web stores a growing collection of interesting things
 about [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT) and GPT-3 from OpenAI.
