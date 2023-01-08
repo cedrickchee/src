@@ -1,4 +1,12 @@
-# Transformer
+---
+id: transformer
+title: Transformer in NLP
+sidebar_label: Transformer
+created: 2019-01-13 21:37
+updated: 2023-01-04 15:42
+---
+
+> This list is also at https://github.com/cedrickchee/awesome-transformer-nlp
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) Transformer & Transfer Learning in NLP
 
