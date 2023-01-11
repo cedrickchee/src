@@ -97,6 +97,7 @@ Example prompts.
 - [Microsoft and OpenAI Working on ChatGPT-Powered Bing in Challenge to Google](http://archive.today/2023.01.04-052131/https://www.bloomberg.com/news/articles/2023-01-04/microsoft-hopes-openai-s-chatbot-will-make-bing-smarter)
 - [Some remarks on Large Language Models](https://gist.github.com/cedrickchee/054956f6277430ae5a973c61e4a93073) by Prof. Yoav Goldberg.
 - [Why ChatGPT won’t replace search engines any time soon](https://www.algolia.com/blog/ai/why-chatgpt-wont-replace-search-engines-any-time-soon/) by Algolia.
+- [Anthropic's Claude improves on ChatGPT but still suffers from limitations](https://techcrunch.com/2023/01/09/anthropics-claude-improves-on-chatgpt-but-still-suffers-from-limitations/)
 
 ### Prompt Engineering
 
