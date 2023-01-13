@@ -182,14 +182,16 @@ Reason:
 
 We want a ChatGPT alternative like Stable Diffusion.
 
-Goals:
+**Goals**
+
 - Open source effort towards OpenAI's ChatGPT.
 - Reverse engineer and replicate ChatGPT models and training data.
 
-Ultimate goal: self-hosted version of ChatGPT.
+**Ultimate goal:** self-hosted version of ChatGPT.
 
-Lessons from [EleutherAI one year retro (2021)](https://blog.eleuther.ai/year-one/):
+**Lessons**
 
+Takeaways from [EleutherAI one year retro (2021)](https://blog.eleuther.ai/year-one/):
 - Access to enough compute/hardware/GPU alone won't help you succeed. You need:
   - a proper dataset (beyond the Pile and [c4](https://www.tensorflow.org/datasets/catalog/c4))
   - research expertise
