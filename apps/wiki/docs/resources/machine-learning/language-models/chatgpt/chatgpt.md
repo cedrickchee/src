@@ -199,6 +199,8 @@ Lessons from [EleutherAI one year retro (2021)](https://blog.eleuther.ai/year-on
 We've seen this happen with EleutherAI who were not capable of reaching their initial target of "replicating" GPT-3 and 
 could only deliver the GPT-NeoX 20B model despite all the free compute, etc.-->
 
+#### Projects
+
 - [FLAN-T5 XXL](https://huggingface.co/google/flan-t5-xxl) aka. ChatGPT@Home is a public model that has undergone instruction finetuning. XXL is a 11B model. It is currently the most comparable model against ChatGPT (InstructGPT models are initialized from GPT-3.x series ([model card](https://github.com/openai/following-instructions-human-feedback/blob/main/model-card.md))). There are successful attempts deploying FLAN-T5 on GPU with 24 GB RAM with [bitsandbytes-Int8](https://docs.google.com/document/d/1JxSo4lQgMDBdnd19VBEoaG-mMfQupQ3XvOrgmRAVtpU/edit) inference for Hugging Face models. You can run the model easily on a single machine, without performance degradation. This could be a game changer in enabling people outside of big tech companies being able to use these LLMs. Efforts are already underway to create a better FLAN-T5. The community (i.e., LAION) are working on FlanT5-Atlas architecture and a collection of prompted/instructions datasets.
   - [Fine-tuning GPT-J-6B in Colab: 8-bit weights with low-rank adaptors (LORA)](https://github.com/huggingface/transformers/issues/14839). ([Quantized EleutherAI/gpt-j-6b model with 8-bit weights](https://huggingface.co/hivemind/gpt-j-6B-8bit))
     - How many GPU and how much VRAM is required to run the model? Around 175GB or ~8x 24GB consumer GPUs. Details: [A Gentle Introduction to 8-bit Matrix Multiplication for transformers at scale using Hugging Face Transformers, Accelerate and bitsandbytes](https://huggingface.co/blog/hf-bitsandbytes-integration)
@@ -231,9 +233,7 @@ could only deliver the GPT-NeoX 20B model despite all the free compute, etc.-->
 - [allenai/RL4LMs](https://github.com/allenai/RL4LMs) - RL for language models (RL4LMs) by Allen AI. It's a modular RL library to fine-tune language models to human preferences.
 - [GPT-JT](https://www.together.xyz/blog/releasing-v1-of-gpt-jt-powered-by-open-source-ai) - GPT-JT (6B) is a variant forked off GPT-J (6B), and performs exceptionally well on text classification and other tasks. On classification benchmarks such as RAFT, it comes close to state-of-the-art models that are much larger (e.g., InstructGPT davinci v2)!
 - LEAM (Large European AI Models) - The EU planning to fund the development of a large-scale ChatGPT-like model. [[website](https://leam.ai/), [project documents (English, PDF)](https://leam.ai/wp-content/uploads/2022/04/LEAM_Teaser_EN_01.pdf), [concept paper (German, PDF)](https://leam.ai/wp-content/uploads/2022/06/LEAM-Konzeptpapier-V1.2-1.pdf)]
-- [/r/AiCrowdFund](https://old.reddit.com/r/AiCrowdFund/comments/10a2g6v/lets_create_a_place_where_people_can_find_a_way/) - A place just started (2023) where people can find a way to crowd fund (with GPUs) a large AI. I'm not sure whether they've seen [Petals](https://petals.ml/) where you can run LLMs at home, BitTorrent‑style (federated learning?).
-
- is a similar initiative.  seems to be headed in that direction.
+- [/r/AiCrowdFund](https://old.reddit.com/r/AiCrowdFund/comments/10a2g6v/lets_create_a_place_where_people_can_find_a_way/) - A place just started (2023) where people can find a way to crowd fund (with GPUs) a large AI. I'm not sure whether they've seen [Petals](https://petals.ml/) where you can run LLMs at home, BitTorrent‑style (federated learning?). It seems to be headed in that direction.
 
 See [cedrickchee/awesome-transformer-nlp](https://github.com/cedrickchee/awesome-transformer-nlp#transformer-reinforcement-learning) for more info.
 
