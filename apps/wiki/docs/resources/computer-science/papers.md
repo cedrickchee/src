@@ -18,7 +18,7 @@ I also subscribe (RSS and email) to Simon Frey's _[Weekly CS Paper](https://simo
 
 ## Software Engineering
 
-- [On the criteria to be used in decomposing systems into modules, David L. Parnas, CMU, 1972](https://dl.acm.org/doi/pdf/10.1145/361598.361623)
+- [On the criteria to be used in decomposing systems into modules, David L. Parnas, CMU, 1972](https://dl.acm.org/doi/pdf/10.1145/361598.361623) [[podcast](https://ericnormand.me/podcast/on-the-criteria-to-be-used-in-decomposing-systems-into-modules)]
 
 ## Uncategorized
 
