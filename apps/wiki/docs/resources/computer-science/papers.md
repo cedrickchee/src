@@ -16,6 +16,10 @@ I also subscribe (RSS and email) to Simon Frey's _[Weekly CS Paper](https://simo
 
 - [Nature Computational Science](https://www.nature.com/natcomputsci) - Online-only journal focused on the development and use of computational techniques and mathematical models to address complex problems across a range of disciplines.
 
+## Software Engineering
+
+- [On the criteria to be used in decomposing systems into modules, David L. Parnas, CMU, 1972](https://dl.acm.org/doi/pdf/10.1145/361598.361623)
+
 ## Uncategorized
 
 - [Philosophy of Computer Science](https://cse.buffalo.edu/~rapaport/Papers/phics.pdf)
