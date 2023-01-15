@@ -64,7 +64,7 @@ Once the raw info is processed, it will flow to my digital garden[^3] (built wit
 
 ### Digital Garden
 
-Layer 1 to 4 is in my digital garden available on https://garden.cedricchee.com.
+Layer 1 to 4 is in my digital garden available on https://github.com/cedrickchee/amethyst (WIP).
 
 I **document everything I know** and **learn** so far about the world in the form of a **digital garden**.
 
