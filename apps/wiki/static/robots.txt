@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /
-Allow:
+Disallow:
+Allow: /
+Sitemap: https://wiki.cedricchee.com/sitemap.xml
