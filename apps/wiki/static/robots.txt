@@ -1,4 +1,7 @@
-User-agent: *
+User-agent: Algolia Crawler
 Disallow:
+
+User-agent: *
 Allow: /
+
 Sitemap: https://wiki.cedricchee.com/sitemap.xml
