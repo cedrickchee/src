@@ -88,6 +88,7 @@ Rust stream on YouTube and/or Twitch:
 - [Programming Rust](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/) by Jim Blandy, Jason Orendorff, Leonora F. S. Tindall - This revised, second edition covers the Rust 2021 Edition. It expands on many concepts in TRPL book. I like that it explains the **memory layout of common Rust data structures**.
 - [The Rustonomicon book](https://doc.rust-lang.org/nomicon/meet-safe-and-unsafe.html) - Meet Safe and Unsafe.
 - [Summary of the Rust book](https://github.com/psibi/rust-book-summary)
+- [Zero To Production In Rust](https://www.zero2prod.com/) - The ideal starting point for your journey as a Rust backend developer. You will learn by doing: you will build a fully functional email newsletter API, starting from scratch.
 
 ## Presentations and talks
 
