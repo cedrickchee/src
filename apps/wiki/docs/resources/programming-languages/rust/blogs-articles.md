@@ -1,5 +1,7 @@
 # Blog posts and articles
 
+**Uncategorized**
+
 - [Rust in 2018: Let’s fix where the bullet holes aren’t](https://medium.com/@cevans3326/rust-in-2018-lets-fix-where-the-bullet-holes-aren-t-7e94cea0bd53)
 - [Lock-freedom without garbage collection](http://aturon.github.io/blog/2015/08/27/epoch/)
 - [Neon: Node + Rust = 💖](http://calculist.org/blog/2015/12/23/neon-node-rust/)
@@ -25,6 +27,13 @@
 - [Rust Web Survey 2018](https://rustasync.github.io/team/2018/11/28/wg-net-survey.html) <!-- DONE -->
 
 - [Comparing Parallel Rust and C++ (parallel-rust-cpp.github.io)](https://news.ycombinator.com/item?id=21469295) <!-- DONE READING -->
+
+**Observations/Thoughts**
+
+- [Next Rust Compiler](https://matklad.github.io/2023/01/25/next-rust-compiler.html)
+- [Forking Chrome to render in a terminal](https://fathy.fr/carbonyl)
+- [Ordering Numbers, How Hard Can It Be?](https://orlp.net/blog/ordering-numbers/)
+- [Some Rust breaking changes don't require a major version](https://predr.ag/blog/some-rust-breaking-changes-do-not-require-major-version/)
 
 ## Blogs
 
