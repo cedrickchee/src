@@ -35,6 +35,13 @@
 - [Ordering Numbers, How Hard Can It Be?](https://orlp.net/blog/ordering-numbers/)
 - [Some Rust breaking changes don't require a major version](https://predr.ag/blog/some-rust-breaking-changes-do-not-require-major-version/)
 
+**Tutorials**
+
+- [Handling Integer Overflow in Rust](https://bmoxb.io/2023/01/28/integer-overflow-in-rust.html)
+- [Rust error handling with anyhow](https://antoinerr.github.io/blog-website/2023/01/28/rust-anyhow.html)
+- [Protohackers in Rust, Part 00: Dipping the toe in async and Tokio](https://d2718.net/blog/posts/protohax_00.html) [series]
+- [Building gRPC APIs with Rust](https://konghq.com/blog/building-grpc-apis-with-rust)
+
 ## Blogs
 
 - [Manish Goregaokar's blog](https://manishearth.github.io/)
