@@ -45,6 +45,7 @@ Example prompts.
 - [Awesome ChatGPT prompts](https://github.com/f/awesome-chatgpt-prompts) - Prompts that works well. Just follow [@goodside](https://twitter.com/goodside)
 - [Google Sheets of 50+ clever GPT-3 prompts](https://docs.google.com/spreadsheets/d/1EuciDyKqFg2CIoQS89tF238oGtJq8a4mRx8kV9eA1Lc/edit#gid=2011839893)
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - Tangentially, this repository shares example code and example prompts for accomplishing common tasks with the OpenAI API.
+- [ChatGPT cheat sheet (PDF)](https://drive.google.com/file/d/1UOfN0iB_A0rEGYc2CbYnpIF44FupQn2I/view)
 
 ## Experiments
 
@@ -60,6 +61,7 @@ Example prompts.
 - [emailGPT](https://github.com/lucasmccabe/emailGPT) - A quick and easy interface to generate emails with ChatGPT.
 - [gptlang](https://github.com/forrestchang/gptlang) - An experiment to see if we can create a programming language in ChatGPT.
 - [ChatRWKV](https://github.com/BlinkDL/ChatRWKV) - Like ChatGPT but powered by the RWKV (**RNN-based**) open language model.
+- [GraphGPT](https://github.com/varunshenoy/GraphGPT) - Extrapolating knowledge graphs from unstructured text using GPT-3.
 
 ## Blog Posts and Articles
 
@@ -109,6 +111,8 @@ Example prompts.
 - [GPT-3 Is the Best Journal I've Ever Used](https://every.to/superorganizers/gpt-3-is-the-best-journal-you-ve-ever-used)
 - [Bypassing Gmail's spam filters with ChatGPT](https://neelc.org/posts/chatgpt-gmail-spam/)
 - [Replacing a SQL analyst with 26 recursive GPT prompts](https://www.patterns.app/blog/2023/01/18/crunchbot-sql-analyst-gpt/)
+- [Google is asking employees to test potential ChatGPT competitors, including a chatbot called 'Apprentice Bard'](https://www.cnbc.com/2023/01/31/google-testing-chatgpt-like-chatbot-apprentice-bard-with-employees.html)
+- [Natural language is the lazy user interface](https://austinhenley.com/blog/naturallanguageui.html)
 
 ### Prompt Engineering
 
@@ -126,6 +130,10 @@ Reason:
 
 - [Learn Prompting](https://github.com/trigaten/Learn_Prompting) - This website is a free, open-source guide on prompt engineering.
 - [PromptArray](https://github.com/jeffbinder/promptarray) - A prompting language for neural text generators.
+
+## Papers
+
+- [The Flan Collection: Designing Data and Methods for Effective Instruction Tuning](https://arxiv.org/abs/2301.13688) by Google Research, 2023 - What's the best completely public competitor to ChatGPT? Flan-T5 beats all public models they tested. They make the Flan collection (first used in Flan-PaLM) of datasets, templates, and methods publicly available. [[Data generation code](https://github.com/google-research/FLAN/tree/main/flan/v2)] [[Tweet](https://twitter.com/ShayneRedford/status/1620805305801261058)]
 
 ## Educational
 
