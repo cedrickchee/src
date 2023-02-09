@@ -2,6 +2,10 @@
 
 ## Reddit /r/rust
 
+- [The illusion of slow development speed in Rust](https://r.nf/r/rust/comments/zllfvw/the_illusion_of_slow_development_speed_in_rust/) - Thoughts: the rate at which you develop is always bound by how good your tools are. Rust is _the_ tool for development speed, by pushing most runtime errors to compile time errors — keeping your feedback loop tight.
+- [Visual Studio Code's new ripgrep-powered search has been released](https://r.nf/r/rust/comments/63oykn/visual_studio_codes_new_ripgreppowered_search_has/)
+- [Explain the GATs like I was 5 years old](https://r.nf/r/rust/comments/ynvm8a/could_someone_explain_the_gats_like_i_was_5/)
+
 - https://old.reddit.com/r/rust/comments/dbtgr8/accurate_mental_model_for_rusts_reference_types/
 - https://old.reddit.com/r/rust/comments/dhbpm9/announcing_displaydoc_a_doc_comment_based_derive/
 - https://old.reddit.com/r/rust/comments/dh96ta/zerocopylmdb_would_love_security_and_soundness/
