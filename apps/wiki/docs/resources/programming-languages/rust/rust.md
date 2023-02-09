@@ -90,6 +90,7 @@ Rust stream on YouTube and/or Twitch:
 - [Summary of the Rust book](https://github.com/psibi/rust-book-summary)
 - [Zero To Production In Rust](https://www.zero2prod.com/) - The ideal starting point for your journey as a Rust backend developer. You will learn by doing: you will build a fully functional email newsletter API, starting from scratch.
 - [Awesome Rust Books](https://github.com/sger/RustBooks) - List of Rust books grouped by level.
+- [Rust for the Polyglot Programmer](https://www.chiark.greenend.org.uk/~ianmdlvl/rust-polyglot/)
 
 ## Presentations and talks
 
