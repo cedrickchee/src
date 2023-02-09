@@ -99,6 +99,10 @@ Rust stream on YouTube and/or Twitch:
 ## Cheat sheets
 
 - https://cheats.rs/
+- [Rust container cheat sheet (Google Docs)](https://docs.google.com/presentation/d/1q-c7UAyrUlM-eZyTo1pd8SZ0qwA_wYxmPZVOQkoDmH4/edit?usp=sharing) - Explaining Rust in terms of actual in-memory representations by [Raph Levien](https://raphlinus.github.io/). Raph think this will be helpful because, most often, these basic Rust types (Vec, Box, Arc) are presented in terms of their abstraction, and the in-memory representation is considered an advanced detail, more a topic for the nomicon. I like it because it clarify things visually.
+- [Another container cheat sheet](https://old.reddit.com/r/rust/comments/idwlqu/rust_memory_container_cheatsheet_publish_on_github/) [[Source](https://github.com/usagi/rust-memory-container-cs)]
+- [See all implementations for Rust and Go side-by-side](https://programming-idioms.org/cheatsheet/Go/Rust)
+- https://github.com/donbright/rust-lang-cheat-sheet - This cheat sheet is in a reasonably useful state for basic things.
 
 ## Libraries
 
