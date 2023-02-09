@@ -53,11 +53,16 @@ Crates:
 
 <!-- COOL -->
 - https://github.com/timberio/vector
+
+- [Glidesort](https://github.com/orlp/glidesort) - A Rust implementation of Glidesort. It is a novel stable sorting algorithm that combines the best-case behavior of Timsort-style merge sorts for pre-sorted data with the best-case behavior of pattern-defeating quicksort for data with many duplicates.
+- [deflect](https://github.com/jswrenn/deflect) - Reflection via DWARF.
+- [pgx](https://github.com/tcdi/pgx) - Build Postgres extensions with Rust.
   
 ## Programs and apps
 
 - https://github.com/xi-editor/xi-editor - an example of real-world usage of Rust.
 - [Real Time For the Masses (RTFM) framework for ARM Cortex-M microcontrollers](https://github.com/rtfm-rs/cortex-m-rtfm)
+- [Prusti](https://github.com/viperproject/prusti-dev) - A prototype static verifier for Rust, built upon the Viper verification infrastructure.
 
 ## GUI
 
