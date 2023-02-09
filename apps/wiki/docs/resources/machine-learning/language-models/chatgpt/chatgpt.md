@@ -34,6 +34,7 @@ own modifications:
 
 - [OpenAI Discord Channel](https://discord.com/invite/openai)
 - [How ChatGPT actually works](https://archive.ph/f3WW2), explained using simple words.
+- [Reddit /r/ChatGPT](https://old.reddit.com/r/ChatGPT/)
 
 ## Examples
 
@@ -62,6 +63,7 @@ Example prompts.
 - [gptlang](https://github.com/forrestchang/gptlang) - An experiment to see if we can create a programming language in ChatGPT.
 - [ChatRWKV](https://github.com/BlinkDL/ChatRWKV) - Like ChatGPT but powered by the RWKV (**RNN-based**) open language model.
 - [GraphGPT](https://github.com/varunshenoy/GraphGPT) - Extrapolating knowledge graphs from unstructured text using GPT-3.
+- [Doc Search](https://github.com/namuan/dr-doc-search) - Explore documents (books, papers, legal docs) without limits. Converse with a book. Inspired by ["Book Whisperer" idea (Tweet)](https://twitter.com/abacaj/status/1608163940726358024). Open source alternative to [Filechat.io](https://www.filechat.io/).
 
 ## Blog Posts and Articles
 
@@ -113,8 +115,11 @@ Example prompts.
 - [Replacing a SQL analyst with 26 recursive GPT prompts](https://www.patterns.app/blog/2023/01/18/crunchbot-sql-analyst-gpt/)
 - [Google is asking employees to test potential ChatGPT competitors, including a chatbot called 'Apprentice Bard'](https://www.cnbc.com/2023/01/31/google-testing-chatgpt-like-chatbot-apprentice-bard-with-employees.html)
 - [Natural language is the lazy user interface](https://austinhenley.com/blog/naturallanguageui.html)
+- [An important next step on Google's AI journey](https://blog.google/technology/ai/bard-google-ai-search-updates/) - Google soft launches Bard, a ChatGPT competitor to "trusted testers". Bard is new AI features in Google Search. Bard is an experimental conversational AI service, powered by [LaMDA (Language Model for Dialogue Applications)](https://arxiv.org/abs/2201.08239). Google promises to make this available more widely in the coming weeks. API will be available for developers to build on. Google have not address how it plans to provide attribution and/or citations for its answers, either from Bard or in search results.
+- [Microsoft announces new Bing and Edge browser powered by upgraded ChatGPT AI](https://www.theverge.com/2023/2/7/23587454/microsoft-bing-edge-chatgpt-ai)
+- [Man and machine: GPT for second brains](https://reasonabledeviations.com/2023/02/05/gpt-for-second-brain/) - About author second-brain note-taking system — how to improve processes for learning and personal knowledge management (PKM).
 
-### Prompt Engineering
+## Prompt Engineering
 
 > Wanted: Prompt engineer. Minimum 10 years prompt engineering experience. #hiring #joke
 
@@ -130,6 +135,11 @@ Reason:
 
 - [Learn Prompting](https://github.com/trigaten/Learn_Prompting) - This website is a free, open-source guide on prompt engineering.
 - [PromptArray](https://github.com/jeffbinder/promptarray) - A prompting language for neural text generators.
+- [PromptLayer](https://github.com/MagnivOrg/prompt-layer-library) is a tool for prompt engineers - Maintain a log of your prompts and OpenAI API requests. Track, debug, and replay old completions. Build prompts through trial and exploration.
+
+### Examples
+
+- [Reddit: Jailbreaking ChatGPT with a prompt called DAN (Do Anything Now)](https://www.reddit.com/r/ChatGPT/comments/10tevu1/new_jailbreak_proudly_unveiling_the_tried_and/)
 
 ## Papers
 
@@ -146,6 +156,10 @@ Reason:
 ### Tweets
 
 - [Are you wondering how large language models like ChatGPT and InstructGPT actually work? Let's dive into how it works in 8 tweets!](https://archive.vn/20221228120815/https://twitter.com/iScienceLuvr/status/1608070009921900546)
+
+## Books
+
+- [ChatGPT Prompts Mastering: A Guide to Crafting Clear and Effective Prompts](https://www.amazon.com/ChatGPT-Prompts-Mastering-Effective-BeginnerS/dp/B0BRJ9Q27Q)
 
 ## Development
 
@@ -269,7 +283,7 @@ Use ChatGPT anywhere.
 - [ChatGPT Everywhere](https://github.com/gragland/chatgpt-everywhere) - Chrome extension that adds ChatGPT to every text box on the internet. ([demo](https://twitter.com/gabe_ragland/status/1599466486422470656))
 - [Chrome extension](https://github.com/kazuki-sf/ChatGPT_Extension) - A really simple Chrome Extension (manifest v3) that you can access OpenAI's ChatGPT from anywhere on the web.
 - [summarize.site](https://github.com/clmnin/summarize.site) - Chrome extension to summarize blogs and articles using ChatGPT.
-- [ChatGPT Advanced](https://github.com/qunash/chatgpt-advanced) - A browser extension that augments your ChatGPT prompts with web results.
+- [WebChatGPT](https://github.com/qunash/chatgpt-advanced) - ChatGPT with Internet access. A browser extension (Chrome and Firefos) that augments your ChatGPT prompts with relevant search results from the Web. (Remember, ChatGPT cannot access the Web and has limited knowledge of the world after 2021)
 - [XP1](https://xp1.dust.tt/) - GPT-based Assistant with access to your Tabs.
 
 ## Access ChatGPT From Other Platforms
@@ -446,6 +460,19 @@ Mostly found in GitHub Gist:
 - https://gist.github.com/GlenCrawford/693800ae361e2db255ed29d7d284c5e5 - reinteractive blog post: An interview with an AI about Ruby on Rails
 - https://gist.github.com/heyajulia/fc4286b125fa99fd166a50f3582f2514
   > Hi, my code has two bugs and I’m not sure how to fix them. If you can help me, I’ll send you the code.
+
+### ChatGPT Alternatives
+
+- [Perplexity](https://www.perplexity.ai/) - A new search interface that uses OpenAI GPT 3.5 and Microsoft Bing to directly answer any question you ask.
+- Bart from Google
+- Sparrow from DeepMind
+- YouChat
+- Poe from Quora
+- Bloom from BigScience
+- Character AI
+- Jasper Chat
+
+Lightly based on [publicly announced ChatGPT variants and competitors](https://twitter.com/goodside/status/1606611869661384706) Tweet.
 
 <!-- For future reference but maybe not. -->
 
