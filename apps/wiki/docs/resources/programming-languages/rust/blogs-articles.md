@@ -28,12 +28,28 @@
 
 - [Comparing Parallel Rust and C++ (parallel-rust-cpp.github.io)](https://news.ycombinator.com/item?id=21469295) <!-- DONE READING -->
 
+- [Supporting the Use of Rust in the Chromium Project](https://security.googleblog.com/2023/01/supporting-use-of-rust-in-chromium.html)
+- [Release Engineering Is Exhausting So Here's cargo-dist](https://blog.axo.dev/2023/02/cargo-dist)
+- [Improving Rust compile times to enable adoption of memory safety](https://www.memorysafety.org/blog/remy-rakic-compile-times/)
+- [Rewriting TypeScript in Rust? You'd have to be...](https://www.totaltypescript.com/rewriting-typescript-in-rust)
+- [How to contribute to LLVM](https://developers.redhat.com/articles/2022/12/20/how-contribute-llvm)
+- [Native Reflection in Rust](https://jack.wrenn.fyi/blog/deflect/)
+- [Introducing sqlite-loadable-rs: A framework for building SQLite Extensions in Rust](https://observablehq.com/@asg017/introducing-sqlite-loadable-rs)
+- [Safely writing code that isn't thread-safe](https://cliffle.com/blog/not-thread-safe/)
+- [Index 1,600,000,000 Keys with Automata and Rust](https://blog.burntsushi.net/transducers/)
+
 **Observations/Thoughts**
 
 - [Next Rust Compiler](https://matklad.github.io/2023/01/25/next-rust-compiler.html)
 - [Forking Chrome to render in a terminal](https://fathy.fr/carbonyl)
 - [Ordering Numbers, How Hard Can It Be?](https://orlp.net/blog/ordering-numbers/)
 - [Some Rust breaking changes don't require a major version](https://predr.ag/blog/some-rust-breaking-changes-do-not-require-major-version/)
+- [The adoption of Rust in Business (2022 Review)](https://rustmagazine.org/issue-1/2022-review-the-adoption-of-rust-in-business/)
+- [Rust concepts I wish I learned earlier](https://rauljordan.com/rust-concepts-i-wish-i-learned-earlier/)
+- [My Year With Rust: The Good, The Bad, The Ugly](https://breakbuild.dev/blog/my-year-with-rust/)
+- [Is coding in Rust as bad as in C++?](https://quick-lint-js.com/blog/cpp-vs-rust-build-times/)
+- [Rusty Ownership and the Lifecycle's Stone](https://blogs.harvard.edu/kapolos/rusty-ownership-and-the-lifecycles-stone/49/)
+- [Using Rust at a startup: A cautionary tale](https://mdwdotla.medium.com/using-rust-at-a-startup-a-cautionary-tale-42ab823d9454)
 
 **Tutorials**
 
@@ -41,6 +57,7 @@
 - [Rust error handling with anyhow](https://antoinerr.github.io/blog-website/2023/01/28/rust-anyhow.html)
 - [Protohackers in Rust, Part 00: Dipping the toe in async and Tokio](https://d2718.net/blog/posts/protohax_00.html) [series]
 - [Building gRPC APIs with Rust](https://konghq.com/blog/building-grpc-apis-with-rust)
+- [Explaining video codecs](https://blog.tempus-ex.com/hello-video-codec/) by implementing a simple one in 100 lines of Rust.
 
 ## Blogs
 
@@ -52,3 +69,4 @@
 - [Llogiq's blog](https://llogiq.github.io/)
 - [Raph Levien’s blog](https://raphlinus.github.io/)
 - [Sean McArthur's blog](https://seanmonstar.com/)
+- [Alex Kladov's blog](https://matklad.github.io/)
