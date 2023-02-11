@@ -178,6 +178,8 @@ For more, please take a look at [ChatGPT Universe](https://github.com/cedrickche
 18. [REPLUG: Retrieval-Augmented Black-Box Language Models (paper)](https://arxiv.org/abs/2301.12652) by Meta AI et al., 2023 - TL;DR: Enhancing GPT-3 with world knowledge — a retrieval-augmented LM framework that combines a frozen LM with a frozen/tunable retriever. It improves GPT-3 in language modeling and downstream tasks by prepending retrieved documents to LM inputs. [[Tweet](https://twitter.com/WeijiaShi2/status/1620497381962977281)]
 19. [Progressive Prompts: Continual Learning for Language Models (paper)](https://arxiv.org/abs/2301.12314) by Meta AI et al., 2023 - Current LLMs have hard time with catastrophic forgetting and leveraging past experiences. The approach learns a prompt for new task and concatenates with frozen previously learned prompts. This efficiently transfers knowledge to future tasks. [[code](https://github.com/arazd/ProgressivePrompts)]
 20. [Large Language Models Can Be Easily Distracted by Irrelevant Context (paper)](https://arxiv.org/abs/2302.00093) by Google Research et al., 2023 - Adding the instruction "Feel free to ignore irrelevant information given in the questions." consistently improves robustness to irrelevant context.
+21. [Toolformer: Language Models Can Teach Themselves to Use Tools (paper)](https://arxiv.org/abs/2302.04761) by Meta AI, 2023 - A smaller model trained to translate human intention into actions (i.e. decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction).
+22. [ERNIE 3.0 Titan: Exploring Larger-scale Knowledge Enhanced Pre-training for Language Understanding and Generation (paper)](https://arxiv.org/abs/2112.12731) by Baidu et al., 2021 - ERNIE 3.0 Titan is the latest addition to Baidu's ERNIE (Enhanced Representation through kNowledge IntEgration) family. It's inspired by the masking strategy of Google's BERT. ERNIE is also a unified framework. They also proposed a controllable learning algorithm and a credible learning algorithm. They apply online distillation technique to compress their model. To their knowledge, it is the largest (260B parameters) Chinese dense pre-trained model so far. [[article](http://research.baidu.com/Blog/index-view?id=165)]
 
 ### Transformer Reinforcement Learning
 
@@ -240,6 +242,7 @@ Open source effort towards ChatGPT:
   - Reinforcement Learning from Human Feedback (RLHF) has emerged as a key method to finetune LLMs and align them with human values. This involves humans ranking language model outputs sampled for a given input, using these rankings to learn a reward model of human preferences, and then using this as a reward signal to finetune the language model with using RL.
 30. [The Scaling Hypothesis](https://www.gwern.net/Scaling-hypothesis) by Gwern - On GPT-3: meta-learning, scaling, implications, and deep theory.
 31. [AI And The Limits Of Language — An AI system trained on words and sentences alone will never approximate human understanding](https://www.noemamag.com/ai-and-the-limits-of-language/) by Jacob Browning and Yann LeCun - What LLMs like ChatGPT can and cannot do, and why AGI is not here yet.
+32. [Use GPT-3 foundational models incorrectly: reduce costs 40x and increase speed by 5x](https://www.buildt.ai/blog/incorrectusage) - When fine-tuning a model, it is important to keep a few things in mind. There's still a lot to learn about working with these models at scale. We need a better guide.
 
 ## Educational
 
@@ -248,6 +251,7 @@ Open source effort towards ChatGPT:
 - [A visual intro to large language models (LLMs) by Jay Alammar/Cohere](https://jalammar.github.io/applying-large-language-models-cohere/) - A high-level look at LLMs and some of their applications for language processing. It covers text generation models (like GPT) and representation models (like BERT).
 - [Interfaces for Explaining Transformer Language Models](https://jalammar.github.io/explaining-transformers/) by Jay Alammar - A gentle visual to Transformer models by looking at input saliency and neuron activation inside neural networks. **Our understanding of why these models work so well, however, still lags behind these developments**.
 - [The GPT-3 Architecture, on a Napkin](https://dugas.ch/artificial_curiosity/GPT_architecture.html)
+- [PicoGPT: GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
 
 ### Tutorials
 
@@ -309,6 +313,7 @@ GPT and/or BERT implementations.
 12. [NVIDIA/NeMo](https://github.com/NVIDIA/NeMo) - Neural Modules is a toolkit for conversational AI by NVIDIA. They are trying to [improve speech recognition with BERT post-processing](https://nvidia.github.io/NeMo/nlp/intro.html#improving-speech-recognition-with-bertx2-post-processing-model).
 13. [facebook/MMBT](https://github.com/facebookresearch/mmbt/) from Facebook AI - Multimodal transformers model that can accept a transformer model and a computer vision model for classifying image and text.
 14. [dbiir/UER-py](https://github.com/dbiir/UER-py) from Tencent and RUC - Open Source Pre-training Model Framework in PyTorch & Pre-trained Model Zoo (with more focus on Chinese).
+15. [lucidrains/x-transformers](https://github.com/lucidrains/x-transformers) - A simple but complete full-attention transformer with a set of promising experimental features from various papers (good for learning purposes). There is a 2021 paper rounding up Transformer modifications, [_Do Transformer Modifications Transfer Across Implementations and Applications?_](https://arxiv.org/abs/2102.11972).
 
 ### Keras
 
