@@ -50,3 +50,20 @@ List of CS blog posts, articles, notes, and stuffs like that.
 - [ETH Zurich Computer Science Cheat Sheets](https://github.com/flavioschneider/ethzcheatsheets)
 - [Theoretical Computer Science Cheat Sheet](https://www.tug.org/texshowcase/cheat.pdf)
 - [Computability Theory and Complexity Theory Cheat Sheets](https://github.com/0x0f0f0f/computability-complexity-cheat-sheets/blob/master/cplx-cheat.pdf)
+
+## Visual Explanations
+
+Visually explaining computer things using comics, cartoons, illustrations, visualizations, etc.
+
+- Wizard Zines by Julia Evans (@b0rk)
+  - [Memory allocation](https://wizardzines.com/comics/memory-allocation/)
+  - [Virtual memory](https://wizardzines.com/comics/virtual-memory/)
+  - [Page faults](https://wizardzines.com/comics/page-faults/)
+  - [bytes](https://wizardzines.com/comics/bytes/)
+  - [Floating point](https://wizardzines.com/comics/floating-point/)
+  - [Hexadecimal](https://wizardzines.com/comics/hexadecimal/)
+  - [Little-endian](https://wizardzines.com/comics/little-endian/)
+  - [Binary search](https://wizardzines.com/comics/binary-search/)
+- [floating point representation (twitter.com/b0rk)](https://twitter.com/b0rk/status/1624094389399171088)
+- [Float Exposed](https://float.exposed/0x44bfa000) by Bartosz Ciechanowski [[blog post](https://ciechanow.ski/exposing-floating-point/)] - A visualization tool for exposing floating point.
+- [8 bytes, many meanings (twitter.com/b0rk)](https://twitter.com/b0rk/status/1623041736242040872)
