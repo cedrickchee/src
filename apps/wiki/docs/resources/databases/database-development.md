@@ -55,3 +55,7 @@ ComSci theory and research.
 ### Courses
 
 - [CMU 15-445/645 Databases Systems (Fall 2020)](https://archive.ph/CEN6J) taught by Prof. Andy Pavlo.
+
+## Lists
+
+- [Awesome Database Development](https://github.com/huachaohuang/awesome-dbdev) - Awesome materials about database development.
