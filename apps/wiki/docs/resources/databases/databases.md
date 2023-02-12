@@ -17,7 +17,7 @@ Data is at the heart of most significant programs, but few understand how databa
 
 I use:
 - [PostgreSQL](postgresql.md)
-- [SQlite](https://www.sqlite.org)
+- [SQlite](sqlite.md)
 - [MongoDB](https://github.com/mongodb/mongo)
 - [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 - [RocksDB](https://github.com/facebook/rocksdb)
