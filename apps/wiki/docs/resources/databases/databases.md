@@ -32,6 +32,8 @@ I use:
 - [Redis](redis)
 - [Elasticsearch](https://en.wikipedia.org/wiki/Elasticsearch)
 - [Apache Kafka](https://en.wikipedia.org/wiki/Apache_Kafka)
+- [Supabase](https://github.com/supabase/supabase)
+- [Prisma](https://www.prisma.io/)
 
 ## Links
 
