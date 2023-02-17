@@ -37,6 +37,11 @@
 - [Introducing sqlite-loadable-rs: A framework for building SQLite Extensions in Rust](https://observablehq.com/@asg017/introducing-sqlite-loadable-rs)
 - [Safely writing code that isn't thread-safe](https://cliffle.com/blog/not-thread-safe/)
 - [Index 1,600,000,000 Keys with Automata and Rust](https://blog.burntsushi.net/transducers/)
+- [The Typestate Pattern in Rust (2019)](https://cliffle.com/blog/rust-typestate/)
+- [Building a Cloud Database from Scratch: Why We Moved from C++ to Rust (2022)](https://www.risingwave-labs.com/blog/building-a-cloud-database-from-scratch-why-we-moved-from-cpp-to-rust/)
+- [Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale (2021)](https://www.micahlerner.com/2021/10/31/rudra-finding-memory-safety-bugs-in-rust-at-the-ecosystem-scale.html) - An article going through the Rudra paper. While the language is well known for its ability to eliminate memory safety bugs, Rudra focuses on one language feature, _unsafe_, where these issues are possible.
+- [How much does Rust's bounds checking actually cost? (2022)](https://blog.readyset.io/bounds-checks/)
+- [Introducing OkayWAL: A write-ahead log for Rust (2023)](https://bonsaidb.io/blog/introducing-okaywal/)
 
 **Observations/Thoughts**
 
@@ -50,6 +55,7 @@
 - [Is coding in Rust as bad as in C++?](https://quick-lint-js.com/blog/cpp-vs-rust-build-times/)
 - [Rusty Ownership and the Lifecycle's Stone](https://blogs.harvard.edu/kapolos/rusty-ownership-and-the-lifecycles-stone/49/)
 - [Using Rust at a startup: A cautionary tale](https://mdwdotla.medium.com/using-rust-at-a-startup-a-cautionary-tale-42ab823d9454)
+- [When Rust hurts (2023)](https://mmapped.blog/posts/15-when-rust-hurts.html)
 
 **Tutorials**
 

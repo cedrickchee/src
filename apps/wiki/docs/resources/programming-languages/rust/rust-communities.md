@@ -5,6 +5,14 @@
 - [The illusion of slow development speed in Rust](https://r.nf/r/rust/comments/zllfvw/the_illusion_of_slow_development_speed_in_rust/) - Thoughts: the rate at which you develop is always bound by how good your tools are. Rust is _the_ tool for development speed, by pushing most runtime errors to compile time errors — keeping your feedback loop tight.
 - [Visual Studio Code's new ripgrep-powered search has been released](https://r.nf/r/rust/comments/63oykn/visual_studio_codes_new_ripgreppowered_search_has/)
 - [Explain the GATs like I was 5 years old](https://r.nf/r/rust/comments/ynvm8a/could_someone_explain_the_gats_like_i_was_5/)
+- [What's your favorite Rust design pattern? (2022)](https://r.nf/r/rust/comments/xmc91c/whats_your_favorite_rust_design_pattern)
+- [Cloudflare developed a Rust based Nginx alternative (2022)](https://r.nf/r/rust/comments/xf9d4z/cloudflare_developed_a_rust_based_nginx/)
+- [`impl Trait` in type aliases (TAIT) is in FCP](https://r.nf/r/rust/comments/zr0001/impl_trait_in_type_aliases_tait_is_in_fcp/) - Getting closer to `async fn` in traits.
+- [State of Rust for web backends](https://r.nf/r/rust/comments/zqgo98/state_of_rust_for_web_backends/)
+- [What is the next big thing coming to Rust (Dec 2022)](https://r.nf/r/rust/comments/ze2foc/what_is_the_next_big_thing_coming_to_rust/)
+- [Why is Rust always advertised as system programming not general purpose programming? (2022)](https://r.nf/r/rust/comments/zbj9io/why_is_rust_always_advertised_as_system/)
+- [Introducing Datacake, the batteries included framework for building distributed systems in Rust (2023)](https://r.nf/r/rust/comments/104xebb/introducing_datacake_the_batteries_included/)
+- [Why should one NOT derive Debug? (2023)](https://r.nf/r/rust/comments/105vr8l/why_should_one_not_derive_debug/)
 
 - https://old.reddit.com/r/rust/comments/dbtgr8/accurate_mental_model_for_rusts_reference_types/
 - https://old.reddit.com/r/rust/comments/dhbpm9/announcing_displaydoc_a_doc_comment_based_derive/

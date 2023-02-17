@@ -57,12 +57,14 @@ Crates:
 - [Glidesort](https://github.com/orlp/glidesort) - A Rust implementation of Glidesort. It is a novel stable sorting algorithm that combines the best-case behavior of Timsort-style merge sorts for pre-sorted data with the best-case behavior of pattern-defeating quicksort for data with many duplicates.
 - [deflect](https://github.com/jswrenn/deflect) - Reflection via DWARF.
 - [pgx](https://github.com/tcdi/pgx) - Build Postgres extensions with Rust.
+- [range_bounds_map](https://github.com/ripytide/range_bounds_map) - A BTreeMap-like data structure library where the keys are RangeBounds. Use case: storing intervals.
   
 ## Programs and apps
 
 - https://github.com/xi-editor/xi-editor - an example of real-world usage of Rust.
 - [Real Time For the Masses (RTFM) framework for ARM Cortex-M microcontrollers](https://github.com/rtfm-rs/cortex-m-rtfm)
 - [Prusti](https://github.com/viperproject/prusti-dev) - A prototype static verifier for Rust, built upon the Viper verification infrastructure.
+- [allocscope](https://github.com/matt-kimball/allocscope) - A memory tracking tool.
 
 ## GUI
 
@@ -72,6 +74,13 @@ Cross-platform, desktop UI:
 - https://github.com/KenSuenobu/rust-pushrod
 - https://github.com/tauri-apps/tauri
 - https://github.com/hecrj/iced
+
+## System Frameworks
+
+Frameworks and tools for building systems.
+
+- [ractor](https://github.com/slawlor/ractor) - Rust actor framework use at WhatsApp. Inspired from [Erlang's `gen_server`](https://www.erlang.org/doc/man/gen_server.html), with the speed + performance of Rust. WhatsApp was built on Erlang. They use both. ractor is running production workloads in WhatsApp today but Erlang is the "bulk" of WhatsApp concurrency model.
+- [Inx Datacake](https://github.com/lnx-search/datacake) - Tooling for creating your own distributed systems.
 
 ## Web Frameworks
 
