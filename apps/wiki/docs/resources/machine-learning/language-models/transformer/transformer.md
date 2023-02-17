@@ -3,7 +3,7 @@ id: transformer
 title: Transformer in NLP
 sidebar_label: Transformer
 created: 2019-01-13 21:37
-updated: 2023-01-04 15:42
+updated: 2023-02-17 14:45
 ---
 
 > This list is also at https://github.com/cedrickchee/awesome-transformer-nlp
@@ -81,6 +81,7 @@ Transformer (BERT) ([Source](https://web.archive.org/web/20201217063603/https://
     > It, crucially, does not have a softmax over a fixed output vocabulary, but instead has a fully nonparametric distribution over phrases. This is in contrast to a recent (2022) body of work that incorporates nonparametric components in a parametric model.
     >
     > Results show that NPM is significantly more parameter-efficient, outperforming up to 500x larger parametric models and up to 37x larger retrieve-and-generate models.
+24. [Transformer models: an introduction and catalog](https://arxiv.org/abs/2302.07730) by Xavier Amatriain, 2023 - The goal of this paper is to offer a somewhat comprehensive but simple catalog and classification of the most popular Transformer models. The paper also includes an introduction to the most important aspects and innovation in Transformer models.
 
 ## Articles
 
@@ -179,7 +180,8 @@ For more, please take a look at [ChatGPT Universe](https://github.com/cedrickche
 19. [Progressive Prompts: Continual Learning for Language Models (paper)](https://arxiv.org/abs/2301.12314) by Meta AI et al., 2023 - Current LLMs have hard time with catastrophic forgetting and leveraging past experiences. The approach learns a prompt for new task and concatenates with frozen previously learned prompts. This efficiently transfers knowledge to future tasks. [[code](https://github.com/arazd/ProgressivePrompts)]
 20. [Large Language Models Can Be Easily Distracted by Irrelevant Context (paper)](https://arxiv.org/abs/2302.00093) by Google Research et al., 2023 - Adding the instruction "Feel free to ignore irrelevant information given in the questions." consistently improves robustness to irrelevant context.
 21. [Toolformer: Language Models Can Teach Themselves to Use Tools (paper)](https://arxiv.org/abs/2302.04761) by Meta AI, 2023 - A smaller model trained to translate human intention into actions (i.e. decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction).
-22. [ERNIE 3.0 Titan: Exploring Larger-scale Knowledge Enhanced Pre-training for Language Understanding and Generation (paper)](https://arxiv.org/abs/2112.12731) by Baidu et al., 2021 - ERNIE 3.0 Titan is the latest addition to Baidu's ERNIE (Enhanced Representation through kNowledge IntEgration) family. It's inspired by the masking strategy of Google's BERT. ERNIE is also a unified framework. They also proposed a controllable learning algorithm and a credible learning algorithm. They apply online distillation technique to compress their model. To their knowledge, it is the largest (260B parameters) Chinese dense pre-trained model so far. [[article](http://research.baidu.com/Blog/index-view?id=165)]
+22. [ERNIE 3.0 Titan: Exploring Larger-scale Knowledge Enhanced Pre-training for Language Understanding and Generation (paper)](https://arxiv.org/abs/2112.12731) by Baidu et al., 2021 - ERNIE 3.0 Titan is the latest addition to Baidu's ERNIE (Enhanced Representation through kNowledge IntEgration)  family. It's inspired by the masking strategy of Google's BERT. ERNIE is also a unified framework. They also proposed a controllable learning algorithm and a credible learning algorithm. They apply online distillation technique to compress their model. To their knowledge, it is the largest (260B parameters) Chinese dense pre-trained model so far. [[article](http://research.baidu.com/Blog/index-view?id=165)]
+23. [Characterizing Attribution and Fluency Tradeoffs for Retrieval-Augmented Large Language Models (paper)](https://arxiv.org/abs/2302.05578) by Google Research, 2023 - Despite recent progress, it has been difficult to prevent semantic hallucinations in generative LLMs. One common solution to this is augmenting LLMs with a retrieval system and making sure that the generated output is attributable to the retrieved information.
 
 ### Transformer Reinforcement Learning
 
@@ -187,6 +189,7 @@ Transformer Reinforcement Learning from Human Feedback (RLHF).
 
 - [Illustrating Reinforcement Learning from Human Feedback](https://huggingface.co/blog/rlhf) - Recent advances with language models (ChatGPT for example) have been powered by RLHF.
 - [Training a Helpful and Harmless Assistant with RLHF (paper)](https://arxiv.org/abs/2204.05862) by Anthropic. [[code and red teaming data](https://huggingface.co/datasets/Anthropic/hh-rlhf), [tweet](https://twitter.com/anthropicai/status/1514277273070825476)]
+- [The Wisdom of Hindsight Makes Language Models Better Instruction Followers (paper)](https://arxiv.org/abs/2302.05206) by UC Berkeley, 2023 - The underlying RLHF algo is complex and requires an additional training pipeline for reward and value networks. They consider an alternative approach, Hindsight Instruction Relabeling (HIR): converting feedback to instruction by relabeling the original one and training the model for better alignment.
 
 #### Tools for RLHF
 
@@ -243,6 +246,7 @@ Open source effort towards ChatGPT:
 30. [The Scaling Hypothesis](https://www.gwern.net/Scaling-hypothesis) by Gwern - On GPT-3: meta-learning, scaling, implications, and deep theory.
 31. [AI And The Limits Of Language — An AI system trained on words and sentences alone will never approximate human understanding](https://www.noemamag.com/ai-and-the-limits-of-language/) by Jacob Browning and Yann LeCun - What LLMs like ChatGPT can and cannot do, and why AGI is not here yet.
 32. [Use GPT-3 foundational models incorrectly: reduce costs 40x and increase speed by 5x](https://www.buildt.ai/blog/incorrectusage) - When fine-tuning a model, it is important to keep a few things in mind. There's still a lot to learn about working with these models at scale. We need a better guide.
+33. [The Next Generation Of Large Language Models](https://archive.vn/WFZnG) - It highlights 3 emerging areas: 1) models that can generate their own training data to improve themselves, 2) models that can fact-check themselves, and 3) massive sparse expert models.
 
 ## Educational
 
@@ -267,6 +271,7 @@ Interpretability research and AI alignment research.
 - [Why Can GPT Learn In-Context? Language Models Secretly Perform Gradient Descent as Meta-Optimizers (paper)](https://arxiv.org/abs/2212.10559v2) by Microsoft Research.
 - [Cognitive Biases in Large Language Models](https://universalprior.substack.com/p/cognitive-biases-in-large-language)
 - [Tracr: Compiled Transformers as a Laboratory for Interpretability (paper)](https://arxiv.org/abs/2301.05062) (2023) by DeepMind - TRACR (TRAnsformer Compiler for RASP) is a compiler for converting RASP programs (DSL for Transformers) into weights of a GPT-like model. Usually, we train Transformers to encode algorithms in their weights. With TRACR, we go in the reverse direction; compile weights **directly** from explicit code. Why do this? Accelerate interpretability research. Think of it like formal methods (from software eng.) on Transformers. It can be difficult to check if the explanation an interpretability tool provides is correct. [[Tweet](https://twitter.com/davlindner/status/1613900577804525573), [code](https://github.com/deepmind/tracr)]
+- [Yann LeCun's unwavering opinion on current (auto-regressive) LLMs (Tweet)](https://web.archive.org/web/20230213173604/https://twitter.com/ylecun/status/1625118108082995203)
 
 ## Videos
 
