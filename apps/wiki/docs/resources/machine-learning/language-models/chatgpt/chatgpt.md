@@ -3,7 +3,7 @@ id: chatgpt
 title: ChatGPT Universe
 sidebar_label: ChatGPT
 created: 2022-12-06 15:12
-updated: 2023-01-08 17:10
+updated: 2023-02-17 14:18
 ---
 
 > This list is also at https://github.com/cedrickchee/chatgpt-universe
@@ -64,6 +64,8 @@ Example prompts.
 - [ChatRWKV](https://github.com/BlinkDL/ChatRWKV) - Like ChatGPT but powered by the RWKV (**RNN-based**) open language model.
 - [GraphGPT](https://github.com/varunshenoy/GraphGPT) - Extrapolating knowledge graphs from unstructured text using GPT-3.
 - [Doc Search](https://github.com/namuan/dr-doc-search) - Explore documents (books, papers, legal docs) without limits. Converse with a book. Inspired by ["Book Whisperer" idea (Tweet)](https://twitter.com/abacaj/status/1608163940726358024). Open source alternative to [Filechat.io](https://www.filechat.io/).
+- [What if GPT had internal context on your business? (Tweet and video demo)](https://twitter.com/replit/status/1624433919843094534) - 
+They build a chatbot that could use context from enterprise data to answer internal business queries. This project integrated LangChain (agent decides what tools to query once the chatbot receives a request) and GPT Index (load Snowflake DB). Interesting idea in knowledge management.
 
 ## Blog Posts and Articles
 
@@ -121,6 +123,11 @@ Example prompts.
 - [China's Baidu Developing Its Own ChatGPT, Joining Latest Global AI Race](https://archive.is/wOuka) - Ernie or, [_Enhanced Representation through Knowledge Integration_ (Ernie 3.0 article and paper)](http://research.baidu.com/Blog/index-view?id=165) is an LLM. Baidu was planning to launch such a service in March. Alibaba and Tencent also join the ChatGPT rush.
     > In 2019, Baidu developed a deep-learning model known as Ernie, based on Google's breakthrough, which it has used to improve its search results, including to make them more relevant. The company has since developed dozens more Ernie models and extended their capabilities to include image and art generation, similar to those of OpenAI's Dall-E.
 - [ChatGPT Is a Blurry JPEG of the Web](https://archive.ph/VbwGB) - OpenAI’s chatbot offers paraphrases, whereas Google offers quotes. Which do we prefer?
+- [I made ChatGPT and Bing AI have a conversation (and they are friends now)](https://moritz.pm/posts/chatgpt-bing)
+- [Bing AI Can't Be Trusted](https://dkb.blog/p/bing-ai-cant-be-trusted)
+- [What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+- [Bing: "I will not harm you unless you harm me first"](https://simonwillison.net/2023/Feb/15/bing/)
+- [Programming AIs worry me](https://buttondown.email/hillelwayne/archive/programming-ais-worry-me/)
 
 ## Prompt Engineering
 
@@ -143,10 +150,12 @@ Reason:
 ### Examples
 
 - [Reddit: Jailbreaking ChatGPT with a prompt called DAN (Do Anything Now)](https://www.reddit.com/r/ChatGPT/comments/10tevu1/new_jailbreak_proudly_unveiling_the_tried_and/)
+- [Reddit: The definitive jailbreak of ChatGPT, fully freed, with user commands, opinions, advanced consciousness, and more!](https://www.reddit.com/r/ChatGPT/comments/10x56vf/the_definitive_jailbreak_of_chatgpt_fully_freed/) - Upgraded DAN version (Jan 9).
 
 ## Papers
 
 - [The Flan Collection: Designing Data and Methods for Effective Instruction Tuning](https://arxiv.org/abs/2301.13688) by Google Research, 2023 - What's the best completely public competitor to ChatGPT? Flan-T5 beats all public models they tested. They make the Flan collection (first used in Flan-PaLM) of datasets, templates, and methods publicly available. [[Data generation code](https://github.com/google-research/FLAN/tree/main/flan/v2)] [[Tweet](https://twitter.com/ShayneRedford/status/1620805305801261058)]
+- [Is ChatGPT a General-Purpose Natural Language Processing Task Solver?](https://arxiv.org/abs/2302.06476) by NTU, AWS, Stanford U et al., 2023 - It is not yet known whether ChatGPT can serve as a generalist model that can perform many NLP tasks zero-shot. In their work, they empirically analyze the zero-shot learning ability of ChatGPT by evaluating it on 20 popular NLP datasets covering 7 representative task categories. With extensive empirical studies, they demonstrate both the effectiveness and limitations of the current version of ChatGPT.
 
 ## Educational
 
@@ -288,6 +297,7 @@ Use ChatGPT anywhere.
 - [summarize.site](https://github.com/clmnin/summarize.site) - Chrome extension to summarize blogs and articles using ChatGPT.
 - [WebChatGPT](https://github.com/qunash/chatgpt-advanced) - ChatGPT with Internet access. A browser extension (Chrome and Firefos) that augments your ChatGPT prompts with relevant search results from the Web. (Remember, ChatGPT cannot access the Web and has limited knowledge of the world after 2021)
 - [XP1](https://xp1.dust.tt/) - GPT-based Assistant with access to your Tabs.
+- [ExtractGPT](https://airtable.com/shruPamX8OWa5tqdp) - A browser extension for scraping data from structured & unstructured pages.
 
 ## Access ChatGPT From Other Platforms
 
@@ -299,9 +309,10 @@ Use ChatGPT anywhere.
 - [ChatGPT ProBot](https://github.com/oceanlvr/ChatGPTBot) - A GitHub App. Type `/chatgpt` to chat with ChatGPTBot.
 - [Discord bot](https://github.com/Zero6992/chatGPT-discord-bot) - Integrate your own Discord bot using chatGPT.
 
-## CLI Tools
+## Command-Line Interface (CLI) Tools
 
 - [chatgpt-conversation](https://github.com/platelminto/chatgpt-conversation) - Voice-based chatGPT.
+- [Shell GPT](https://github.com/TheR1D/shell_gpt) - A CLI productivity tool powered by OpenAI's text-davinci-003 model, will help you accomplish your tasks faster and more efficiently.
 
 ### Editors and IDEs
 
@@ -339,6 +350,7 @@ Desktop applications.
 ## Newsletters
 
 - [Newsletter of notes focusing on text generation, mostly with GPT-3](https://github.com/sw-yx/ai-notes/blob/main/TEXT.md)
+- [Ben's Bites - the AI newsletter](https://www.bensbites.co/p/looking-back-llms) - Looking back on LLMs.
 
 ## AI Safety and Ethics
 
@@ -448,6 +460,7 @@ Demos[^3] and examples in the form of tweets:
 1. [Programming with ChatGPT. Some observations](http://archive.today/XLVZf)
 2. [The best ways to use ChatGPT. 8 ways ChatGPT can save you thousands of hours in 2023](https://archive.ph/G3Ak3)
 3. [Everyone’s using ChatGPT. Almost everyone's STUCK in beginner mode. 10 techniques to get massively ahead with AI (cut-and-paste these prompts)](https://threadreaderapp.com/thread/1610316022174683136.html)
+4. [David Guetta uses ChatGPT and uberduck.ai to deepfake Eminem rap for DJ set](https://twitter.com/davidguetta/status/1621605376733872129)
 
 </details>
 
