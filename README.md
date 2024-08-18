@@ -1,6 +1,7 @@
 # InfoWarehouse
 
-## _Work-In-Progress (WIP). Don't link to it yet._
+> [!NOTE]
+> Work-In-Progress (WIP).
 
 InfoWarehouse — a modern information "warehouse" in the form of a **wiki**.
 
@@ -69,7 +70,7 @@ This project is a [Turborepo](https://turbo.build/repo) monorepo setup.
 
 The setup was based on an official pnpm starter turborepo.
 
-I created this turborepo by following the [tutorial here](https://gist.github.com/cedrickchee/dfdb66c457c7b9e1682feedcc4fd6302).
+I created this turborepo by following the [tutorial here](https://cedricchee.com/blog/turborepo-monorepo/).
 
 ### What's inside?
 

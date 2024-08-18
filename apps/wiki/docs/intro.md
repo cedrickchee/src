@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # Cedric Chee's Wiki
 
-**_Work-In-Progress (WIP). Don't link to it yet._**
+**_Work-In-Progress (WIP)._**
 
 Hello. Welcome to **InfoWarehouse** — a modern information "warehouse" in the form of a wiki.
 
